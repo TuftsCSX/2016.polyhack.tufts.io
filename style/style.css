@@ -71,6 +71,8 @@ h3, h4 {
 	    float:none;
 	    font-family: 'Roboto', sans-serif;
 	}
+
+
 }
 
 
@@ -129,15 +131,7 @@ h3, h4 {
 }
 
 
-/*
-#Sponsors {
-   max-width: 100%;
-}
-
-#Sponsors img {
-    max-width: 100%;
-}
-*/
+/* ===== Rows ===== */
 
 #Sponsors .col-sm-12 img,
 #Sponsors .col-sm-6 img,
@@ -152,67 +146,96 @@ h3, h4 {
  * http://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-div
  */
 
-.sponsor-tripadvisor img {
-	width: 100%;
-}
-
-.sponsor-bose img {
-	padding-top: 25%;
-}
-
-.sponsor-cimpress img {
-	padding-top: 12%;
-}
-
-.sponsor-twitter img {
-	max-height: 150px;
-    padding-left: 23%;
-}
-
-.sponsor-hhbrown img {
-    padding-top: 15%;
-}
-
-.sponsor-microsoft img {
-	padding-top: 15%;
-}
-
-.sponsor-palantir img {
-    padding-top: 10%;
-}
-
-.sponsor-cymbal img {
-	padding-top: 15%;
-    padding-bottom: 15%;
+#Sponsors .row img {
+ max-width: 100%;
 }
 
 #Sponsors .row {
     margin-bottom: 10px;
 }
 
-#Sponsors .row img {
-	max-width: 100%;
-}
-/*
-#Sponsors .row.title img {
-  max-width: 100%;
+#Sponsors .row.gold {
+  margin-bottom: 100px;
 }
 
-#Sponsors .row.gold img {
-  max-width: 50%;
+#Sponsors .row.silver.last {
+  margin-bottom: 80px;
 }
 
-#Sponsors .row.silver img {
-  max-width: 40%;
+#Sponsors .row.bronze {
 }
 
-#Sponsors .row.bronze img {
-  max-width: 30%;
+.sponsor-tripadvisor img {
+  margin-top: -30px;
 }
-*/
+
+.sponsor-bose img {
+  padding-top: 18%;
+}
+
+.sponsor-cimpress img {
+}
+
+.sponsor-twitter img {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.sponsor-hhbrown img {
+  padding-top: 15%;
+}
+
+.sponsor-microsoft img {
+  padding-top: 15%;
+}
+
+.sponsor-palantir img {
+  padding-top: 10%;
+}
+
+.sponsor-cymbal img {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.sponsor-blueapron img {
+  width: 70%;
+  padding-left: 15%;
+}
+
+@media (max-width: 768px), only screen and (max-device-width: 480px){
+  #Sponsors .row.gold img {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+  #Sponsors .row.silver img {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+  }
+  #Sponsors .row.silver.last img {
+    margin-bottom: 50px;
+    padding: 0px;
+  }
+  #Sponsors .row.bronze img {
+    max-width: 30%;
+    margin-left: 35%;
+    margin-bottom: 30px;
+  }
+  .sponsor-blueapron img {
+    width: 100%;
+    padding-left: 0;
+  }
+  .sponsor-bose img {
+    padding-top: 5%;
+  }
+  .sponsor-hhbrown img {
+    padding-top: 5%;
+  }
+}
+
 #footer {
-	margin: 300px 0px 80px;
-
+	margin: 100px 0px 80px;
 }
 
 #cheatfooter {
