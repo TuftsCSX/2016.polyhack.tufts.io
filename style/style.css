@@ -87,7 +87,7 @@ h3, h4 {
 }
 
 #logoTriangles {
-	margin-top: 80px;
+	/*margin-top: 80px;*/
 	position: relative;
 	width: 800px;
 	height: 640px;
@@ -135,7 +135,7 @@ h3, h4 {
 .btn-default {
   padding: 20px;
   margin-bottom: 60px;
-  margin-top: -70px;
+  margin-top: -300px;
   font-weight: bold;
   font-size: 20px;
 }
