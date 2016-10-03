@@ -45,137 +45,137 @@ Forwards makes it stay at the last frame
 */
 
 #poly1 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly2 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly3 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 3s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly4 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 4s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly5 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 5s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly6 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly7 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 3s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly8 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 5s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly9 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly10 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 3s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly11 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly12 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 5s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly13 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly14 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 5s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly15 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 4s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly16 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 7s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly17 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 4s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly18 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 5s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly19 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 7s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly20 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 6s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly21 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 4s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly22 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 3s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly23 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 5s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly24 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 4s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly25 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 7s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly26 {
-  animation: move-left 4s 1s ease-in-out forwards;
+  animation: move-left 3s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
 #poly27 {
-  animation: move-right 4s 1s ease-in-out forwards;
+  animation: move-right 4s 0.5s ease-in-out forwards;
   opacity: 0;
 }
 
