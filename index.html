@@ -331,9 +331,11 @@
 		});
 	}); </script>
 	<script>
-	    $(document).ready(function() {
-	      $('#register-btn').hide().delay(3000).fadeIn(2200);
-	});
+		if (screen && screen.width > 480) {
+	    	$(document).ready(function() {
+	    	  $('#register-btn').hide().delay(3000).fadeIn(2200);
+		});
+	}
     </script>
 </body>
 
