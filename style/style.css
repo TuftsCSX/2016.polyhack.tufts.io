@@ -103,6 +103,14 @@ h3, h4 {
 	fill-opacity: 0;
 }
 
+.developers_text {
+  font-family: Roboto;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
 #content a {
 	color: #999;
 }
@@ -110,12 +118,63 @@ h3, h4 {
         text-align: center;
 }
 
-#Mission {
 
+.about {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5E356A;
+  padding-top: 50px;
 }
 
-#mission {
+.developers {
+  width: 100vw;
+  height: 100vh;
+  background-color: #CD5731;
+}
+
+.designers {
+  width: 100vw;
+  height: 100vh;
+  background-color: #21887A;
+}
+
+.triangle_pic {
+  margin-top: 150px;
+}
+
+#Mission {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #202727;
+  z-index: -10000;
+}
+
+#mission h3 {
 	margin-left: 5px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.right {
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 100px;
+}
+
+.left {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+}
+
+.green_triangle {
+  padding-top: 150px;
+  position: absolute;
+  padding-left: 10%;
 }
 
 .lists {
