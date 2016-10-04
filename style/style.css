@@ -34,8 +34,8 @@ h2 {
 
 h3, h4 {
 	font-family: 'Roboto', sans-serif;
-	line-height: 1.6;
-  font-weight: 200;
+	line-height: 1.65;
+  font-weight: 0;
 }
 
 .cheattext{
@@ -126,61 +126,53 @@ h3, h4 {
 
 .about {
   text-align: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #5E356A;
-  padding-top: 50px;
+  padding-top: 6%;
 }
 
-.developers {
-  width: 100vw;
-  height: 100vh;
-  background-color: #CD5731;
-}
-
-.designers {
-  width: 100vw;
-  height: 100vh;
-  background-color: #21887A;
-}
 
 .triangle_pic {
-  padding-top: 150px;
+  padding-top: 12%;
   vertical-align: middle;
+  display: block;
+  margin: auto;
+  padding-bottom: 12%;
 }
 
 #Mission {
   position: fixed;
-  width: 100vw;
-  height: 100vh;
   background-color: #202727;
   z-index: -10000;
 }
 
+.mission-design {
+  padding-top: 6%;
+}
+
 #mission h3 {
-	margin-left: 5px;
-  margin-top: 200px;
-  margin-bottom: 400px;
+	margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 8%;
 }
 
 .right {
-    text-align: right;
+    text-align: left;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 100px;
 }
 
 .left {
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 100px;
 }
 
 .green_triangle {
-  padding-top: 150px;
-  position: absolute;
   padding-left: 10%;
+  display: block;
+  margin: auto;
+  padding-top: 12%;
+  vertical-align: middle;
+  padding-bottom: 12%;
 }
 
 .lists {
@@ -199,11 +191,15 @@ h3, h4 {
 
 .btn-default {
   padding: 20px;
-  margin-bottom: 60px;
-  margin-top: -70px;
-  font-weight: bold;
+  margin-bottom: 6%;
+  margin-top: 6%;
+  font-weight: 0;
   font-size: 20px;
+  background-color: #22897A;
+  color: white !important;
+  border: none !important;
 }
+
 
 #content a {
   color: #444;
@@ -380,6 +376,13 @@ h3, h4 {
 }
 
 .left-title {
+  text-align: left;
+  vertical-align: left;
+  line-height: 90px; 
+  padding-bottom: 2%;
+}
+
+.right-title {
   text-align: left;
   vertical-align: left;
   line-height: 90px; 
