@@ -7,6 +7,9 @@
 body {
   position: relative;
   color:#DCDCDC;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 
@@ -20,17 +23,19 @@ h1 {
 	margin-bottom: 3vh;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 4em;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
+  font-weight: 325;
 
 }
 
 h3, h4 {
 	font-family: 'Roboto', sans-serif;
-	line-height: 1.4;
+	line-height: 1.6;
+  font-weight: 200;
 }
 
 .cheattext{
@@ -82,7 +87,7 @@ h3, h4 {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background-color: #202727;
+	background-color: #000000;
 	z-index: -10000;
 }
 
@@ -337,4 +342,45 @@ h3, h4 {
 	top: 50%;
 	transform: translateY(20%);
 	height: 30%;
+}
+
+
+/* BRUNO'S CODE */
+
+.purplebg {
+  background-color: #5D356B;
+  padding-bottom: 8%;
+  padding-top: 2%;
+}
+
+.orangebg {
+  background-color: #CE5733;
+  padding-bottom: 8%;
+  padding-top: 2%;
+}
+
+.blackbg {
+  background-color: #000000;
+  padding-bottom: 8%;
+  padding-top: 2%;
+}
+
+.tealbg {
+  background-color: #22897A;
+  padding-bottom: 8%;
+  padding-top: 2%;
+}
+
+.center-title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px; 
+  padding-bottom: 2%;
+}
+
+.left-title {
+  text-align: left;
+  vertical-align: left;
+  line-height: 90px; 
+  padding-bottom: 2%;
 }
