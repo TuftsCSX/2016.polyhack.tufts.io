@@ -145,7 +145,8 @@ h3, h4 {
 }
 
 .triangle_pic {
-  margin-top: 150px;
+  padding-top: 150px;
+  vertical-align: middle;
 }
 
 #Mission {
@@ -159,7 +160,7 @@ h3, h4 {
 #mission h3 {
 	margin-left: 5px;
   margin-top: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 400px;
 }
 
 .right {
