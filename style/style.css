@@ -34,8 +34,8 @@ h2 {
 
 h3, h4 {
 	font-family: 'Roboto', sans-serif;
-	line-height: 1.6;
-  font-weight: 200;
+	line-height: 1.65;
+  font-weight: 0;
 }
 
 .cheattext{
@@ -53,6 +53,10 @@ h3, h4 {
 	margin-top: 50px;
 }
 
+.mob-top-section {
+/*just for mobile*/
+}
+
 
 /* ===== Mobile Views ===== */
 
@@ -60,6 +64,47 @@ h3, h4 {
 	#logoTriangles, #logo, nav {
 		display: none;
 	}
+  .mob-top-section {
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+  .mission-design {
+    margin-top: 8%;
+    width: 40%;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h3, h4 {
+    font-size: 1.25em;
+  }
+  .green_triangle {
+    width: 50%;
+  }
+  .triangle_pic {
+    width: 50%
+  }
+  .right-title, .left-title {
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 2%;
+  }
+
+  .mob-faq {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  .btn-default {
+    margin-bottom: 12% !important;
+  }
+  .map {
+    padding-bottom: 6%;
+    padding-top: 15%;
+  }
+
 }
 #fallback {
  max-width:100%;
@@ -108,6 +153,14 @@ h3, h4 {
 	fill-opacity: 0;
 }
 
+.developers_text {
+  font-family: Roboto;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
 #content a {
 	color: #999;
 }
@@ -115,12 +168,56 @@ h3, h4 {
         text-align: center;
 }
 
-#Mission {
 
+.about {
+  text-align: center;
+  padding-top: 6%;
 }
 
-#mission {
-	margin-left: 5px;
+
+.triangle_pic {
+  padding-top: 12%;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+  padding-bottom: 12%;
+}
+
+#Mission {
+  position: fixed;
+  background-color: #202727;
+  z-index: -10000;
+}
+
+.mission-design {
+  padding-top: 6%;
+}
+
+#mission h3 {
+	margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.right {
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.left {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.green_triangle {
+  padding-left: 10%;
+  display: block;
+  margin: auto;
+  padding-top: 12%;
+  vertical-align: middle;
+  padding-bottom: 12%;
 }
 
 .lists {
@@ -139,11 +236,15 @@ h3, h4 {
 
 .btn-default {
   padding: 20px;
-  margin-bottom: 60px;
-  margin-top: -70px;
-  font-weight: bold;
+  margin-bottom: 6%;
+  margin-top: 6%;
+  font-weight: 0;
   font-size: 20px;
+  background-color: #22897A;
+  color: white !important;
+  border: none !important;
 }
+
 
 #content a {
   color: #444;
@@ -315,13 +416,17 @@ h3, h4 {
 .center-title {
   text-align: center;
   vertical-align: middle;
-  line-height: 90px; 
   padding-bottom: 2%;
 }
 
 .left-title {
   text-align: left;
   vertical-align: left;
-  line-height: 90px; 
+  padding-bottom: 2%;
+}
+
+.right-title {
+  text-align: left;
+  vertical-align: left;
   padding-bottom: 2%;
 }
