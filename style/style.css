@@ -57,6 +57,10 @@ h3, h4 {
 /*just for mobile*/
 }
 
+.row {
+  margin: 0px;
+
+}
 
 /* ===== Mobile Views ===== */
 
@@ -161,6 +165,10 @@ h3, h4 {
   padding-right: 5%;
 }
 
+#content {
+  padding: 0px;
+}
+
 #content a {
 	color: #999;
 }
@@ -228,16 +236,13 @@ h3, h4 {
 
 }
 
-#FAQ {
-
-}
 
 /* ===== Buttons ===== */
 
 .btn-default {
   padding: 20px;
   margin-bottom: 6%;
-  margin-top: 6%;
+  margin-top: 3%;
   font-weight: 0;
   font-size: 20px;
   background-color: #22897A;
