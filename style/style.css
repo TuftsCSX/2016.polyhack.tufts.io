@@ -444,3 +444,8 @@ h3, h4 {
 .not-blue-link {
   color: #444;
 }
+
+a.github-url {
+  color: gray !important;
+}
+
